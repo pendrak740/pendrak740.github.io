@@ -1,0 +1,39 @@
+body {
+    background-color: #E6E6FA; /* Svìtle fialové pozadí */
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    list-style-type: none; /* Skrytí odrážek */
+    padding: 0;
+}
+
+.menu li {
+    display: inline; /* Zobrazení položek menu vedle sebe */
+    margin-right: 20px; /* Mezera mezi položkami */
+}
+
+.menu a {
+    text-decoration: none; /* Skrytí podtržení odkazù */
+    color: #000; /* Barva textu odkazù */
+}
+
+.menu li:hover a {
+    color: #FF6347; /* Zmìna barvy odkazu po najetí myší */
+}
+
+.container {
+    border: double 5px #000; /* Dvojité orámování */
+    padding: 20px;
+}
+
+.block {
+    background-color: #D8BFD8; /* Barva blokù */
+    margin: 10px 0; /* Mezera mezi bloky */
+    padding: 20px;
+}
+
+footer {
+    text-align: center; /* Vycentrování textu v patièce */
+    margin-top: 20px;
+}
